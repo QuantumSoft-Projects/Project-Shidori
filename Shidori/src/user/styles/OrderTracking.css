@@ -1,0 +1,238 @@
+/* Scoped Container */
+.order-tracking-page {
+  width: calc(100vw - 240px); /* Leaves space for sidebar (adjust if sidebar width differs) */
+  margin-left: 240px;
+  background: #f8f8f8;
+  padding: 25px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Order ID Tag */
+.order-tracking-page .order-id {
+  background: #ffb584;
+  color: #333;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bold-text {
+  font-weight: bold;
+
+}
+
+/* Section Container */
+.order-tracking-page .section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress Container */
+.order-tracking-page .progress-container {
+  position: relative;
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Status Labels */
+.order-tracking-page .labels {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Time Labels */
+.order-tracking-page .times {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 5px;
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+
+.order-tracking-page .time-label {
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  width: 20%;
+}
+
+/* Progress Bar Line */
+.order-tracking-page .progress-bar {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.order-tracking-page .progress-bar .line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #ddd;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.order-tracking-page .progress-bar .filled-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 5px;
+  background: #ff6600;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+
+/* Dots */
+.order-tracking-page .dot {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 3;
+}
+
+.order-tracking-page .dot.active {
+  background: #ff6600;
+}
+
+.order-tracking-page .progress-bar.cancelled .line,
+.order-tracking-page .progress-bar.cancelled .filled-line {
+  background: #ffb3b3 !important;
+}
+
+.order-tracking-page .dot.cancelled {
+  background: #ff4d4d !important;
+}
+
+/* Buttons */
+.order-tracking-page .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.order-tracking-page .cancel-btn {
+  padding: 10px 20px;
+  background: #ff3737;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Cancellation Message */
+.order-tracking-page .cancel-message {
+  text-align: center;
+  color: #ff3737;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Order Details Section */
+.order-tracking-page .details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #ffebe0;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+/* Order Image */
+.order-tracking-page .order-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-tracking-page .order-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Info Columns */
+.order-tracking-page .column {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+/* Extra Details */
+.order-tracking-page .extra-details {
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.order-tracking-page .extra-details p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .order-tracking-page {
+    width: 100vw;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .order-tracking-page .labels span,
+  .order-tracking-page .time-label {
+    font-size: 11px;
+    width: 18%;
+  }
+
+  .order-tracking-page .dot {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .order-tracking-page .details-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .order-tracking-page .column {
+    padding: 5px;
+    text-align: center;
+  }
+}

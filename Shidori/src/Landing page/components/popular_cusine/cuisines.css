@@ -1,0 +1,59 @@
+.cuisines {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Grid for States (Horizontal Layout) */
+.state-grid {
+    display: flex; /* ✅ Arrange states in a row */
+    flex-wrap: nowrap; /* ✅ Prevent vertical stacking */
+    gap: 20px;
+    overflow-x: auto; /* ✅ Enable horizontal scrolling on smaller screens */
+    justify-content: center;
+    padding: 10px;
+}
+
+/* State Card */
+.state-card {
+    flex: 0 0 auto;
+    width: 200px; /* ✅ Set a fixed width */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.state-card:hover {
+    transform: scale(1.05);
+}
+
+/* State Image */
+.state-img {
+    width: 100%;
+    height: 120px; /* ✅ Keep images uniform */
+    object-fit: cover;
+    border-bottom: 3px solid #ff6700;
+}
+
+/* State Name */
+.state-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0e0600;
+    padding: 10px;
+}
+
+/* ✅ Make it responsive */
+@media (max-width: 768px) {
+    .state-grid {
+        flex-wrap: nowrap;
+        overflow-x: scroll; /* ✅ Enable scrolling on small screens */
+        padding-bottom: 10px;
+    }
+
+    .state-card {
+        width: 180px; /* ✅ Adjust card size for mobile */
+    }
+}

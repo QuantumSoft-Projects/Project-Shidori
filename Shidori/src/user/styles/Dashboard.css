@@ -1,0 +1,231 @@
+.dashboard {
+  margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+  }
+  
+  .dashboard.expanded {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+  }
+  
+  .dashboard.collapsed {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+  }
+  
+  .dashboard.full {
+    margin-left: 0;
+    width: 100%;
+  }
+  
+  .dashboard > div {
+    width: 100%;
+  }
+  
+  /* Discount Card */
+  .dashboard-discount-card {
+    background: linear-gradient(135deg, #ff6600, #ff3300);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .dashboard-discount-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dashboard-discount-text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-discount-text p {
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  
+  .dashboard-promo-img {
+    width: 110px;
+  }
+  
+  /* Category Section */
+  .dashboard-category-section {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .dashboard-category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .dashboard-category-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .dashboard-category-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dashboard-category-icon {
+    font-size: 30px;
+  }
+  
+  .dashboard-category-name {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  /* Best Selling Dishes */
+  .dashboard-popular-dishes {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .dashboard-dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .dashboard-dish-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dashboard-dish-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dashboard-discount-badge {
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .dashboard-dish-img {
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .dashboard-dish-name {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .dashboard-dish-price {
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .dashboard-add-to-cart {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .dashboard-add-to-cart:hover {
+    background: #e65c00;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .dashboard.expanded {
+      margin-left: 200px;
+      width: calc(100% - 200px);
+    }
+  
+    .dashboard.collapsed {
+      margin-left: 70px;
+      width: calc(100% - 70px);
+    }
+  }
+  
+  /* Mobile Responsive Fixes */
+  @media (max-width: 600px) {
+    .dashboard {
+      margin-left: 70px;
+      width: calc(100% - 70px);
+      padding: 10px;
+    }
+  
+    .dashboard-category-grid {
+      grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    }
+  
+    .dashboard-dishes-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+  
+    .dashboard-dish-card {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .dashboard-dish-img {
+      width: 100%;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  
+    .dashboard-add-to-cart {
+      padding: 6px;
+      font-size: 12px;
+      width: 100%;
+    }
+  }
+  

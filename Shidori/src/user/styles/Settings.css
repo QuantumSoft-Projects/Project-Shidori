@@ -1,0 +1,154 @@
+/* Full Width Coverage (Right Side) */
+.settings-page {
+    margin-left: 260px;
+    padding: 30px;
+    width: calc(100% - 260px); /* Ensures full right-side coverage */
+    box-sizing: border-box;
+    background: white;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+.settings-page.dark-mode {
+    background: #181818;
+    color: #e0e0e0;
+}
+
+/* Page Title */
+.settings-page h1 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Section Titles */
+.settings-page h2 {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Dark Mode Section Titles */
+.settings-page.dark-mode h1,
+.settings-page.dark-mode h2 {
+    color: #f5f5f5;
+}
+
+/* Section Container */
+.section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.settings-page.dark-mode .section {
+    background: #242424;
+}
+
+/* Setting Items */
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+/* Toggle Switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    border-radius: 34px;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+
+/* Fix: Proper Position for Toggle Circle */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+/* Toggle On State */
+input:checked + .slider {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 1px;
+    background: black;
+    margin: 20px 0;
+}
+
+/* ✅ Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .settings-page {
+        margin-left: 220px;
+        width: calc(100% - 220px);
+    }
+}
+
+@media (max-width: 768px) {
+    .settings-page {
+        margin-left: 15px; /* Leaves 5px space before the dashboard */
+        width: calc(100% - 15px); /* Ensures proper alignment */
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    .setting-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0; /* Adjusted padding */
+    }
+
+    .toggle-switch {
+        margin-top: 5px;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    .settings-page h1 {
+        font-size: 24px;
+    }
+
+    .settings-page h2 {
+        font-size: 20px;
+    }
+
+    .setting-item p {
+        font-size: 14px; /* Smaller text on mobile */
+    }
+}

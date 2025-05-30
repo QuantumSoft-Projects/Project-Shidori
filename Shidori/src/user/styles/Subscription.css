@@ -1,0 +1,220 @@
+/* Root container */
+.subscription-container {
+    padding: 2rem;
+    background-color: #ffffff; /* soft orange-white background */
+    min-height: 100vh;
+    margin-left: 350px; /* leave space for sidebar */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Title */
+  .subscription-container .title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  /* Active Plan Section */
+  .active-plan-section {
+  margin-left: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Full height minus navbar/sidebar space if any */
+    background-color: transparent;  /* Very light orange shade */
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .active-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .active-card {
+    background-color: #ffffff;
+    border: 2px solid #ffa726; /* orange border */
+    padding: 2rem 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 167, 38, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .active-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .active-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .active-card .price {
+    font-weight: bold;
+    color: #e65100;
+    font-size: 1.2rem;
+  }
+  
+  .active-card .validity {
+    color: #c52a04;
+    font-weight: 500;
+  }
+  
+  /* Plans Section */
+  .plans-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .plan-card {
+    background-color: #fff;
+    border: 2px solid #ffcc80;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .plan-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .plan-card.selected {
+    border: 2px solid #ff9900;
+    background-color: #fff3e0;
+  }
+  
+  .plan-card h3 {
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-card .price {
+    font-weight: bold;
+    color: #444;
+    margin-top: 0.5rem;
+  }
+  
+  /* Select Button */
+  .select-button {
+    margin-top: 1rem;
+    background-color: #ff6600;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+  }
+  
+  .select-button:hover {
+    background-color: #e67e00;
+  }
+  
+  /* Payment Form */
+  .payment-form {
+    background-color: #fff;
+    border: 2px solid #ffd699;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+  }
+  
+  .payment-form h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .payment-form input,
+  .payment-form select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 0.3rem;
+  }
+  
+  /* Pay Button */
+  .pay-btn {
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #ff9900;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .pay-btn:hover {
+    background-color: #e67e00;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .subscription-container {
+      padding: 1rem;
+      margin-left: 0;
+    }
+  
+    .plans-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .plan-card,
+    .payment-form,
+    .active-card {
+      width: 100%;
+    }
+  
+    .title, .active-title {
+      font-size: 1.6rem;
+    }
+  }
+  .subscription-container .page-title{
+    font-size: 2.2rem;
+    font-weight: bold; /* Ensures the text is bold */
+    color: #000;        /* Ensures the text is black */
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  

@@ -1,0 +1,123 @@
+/* Scoped styles for ViewOrders.jsx */
+
+.view-orders-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fdf7f1; /* smooth light orange background */
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.view-orders-page .main-content {
+  width: 100%;
+  max-width: 1000px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-orders-page .main-content h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.view-orders-page .order-card {
+  background-color: #ffffff;
+  border: 1px solid #ffcc80;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.15);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  transition: transform 0.2s ease;
+}
+
+.view-orders-page .order-card:hover {
+  transform: translateY(-3px);
+}
+
+.view-orders-page .order-card.cancelled {
+  opacity: 0.6;
+  border: 2px dashed #ffa726;
+  background-color: #fff8e1;
+}
+
+.view-orders-page .food-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 1.5rem;
+}
+
+.view-orders-page .order-info {
+  flex: 1;
+}
+
+.view-orders-page .order-info h3 {
+  color: #000000; /* dish name in black */
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.view-orders-page .order-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #5d4037;
+}
+
+.view-orders-page .price {
+  font-weight: bold;
+  color: #e65100;
+  margin-top: 6px;
+}
+
+.view-orders-page .order-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.view-orders-page button {
+  background: linear-gradient(135deg, #ff6600, #ff3300);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 2px 6px rgba(255, 102, 0, 0.3);
+}
+
+.view-orders-page button:hover {
+  background: linear-gradient(135deg, #e65100, #bf360c);
+  transform: translateY(-1px);
+}
+
+/* Responsive layout for mobile */
+@media screen and (max-width: 768px) {
+  .view-orders-page .order-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .view-orders-page .food-img {
+    margin-bottom: 1rem;
+  }
+
+  .view-orders-page .order-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .view-orders-page .order-actions button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,152 @@
+"Question","Answer"
+"What is the Taste of India loyalty program?","The Taste of India Loyalty Program includes: 
+1. Earn 1 point for every ₹10 spent on purchases.
+2. Redeem points for discounts on future purchases.
+3. Exclusive perks like birthday rewards, anniversary discounts, and early access to new menu items.
+4. Earn 50 points for each successful referral."
+"How do I earn loyalty points?","You earn 1 point for every ₹10 spent. You also earn 50 points for each successful referral. Exclusive perks include birthday rewards, anniversary discounts, and early access to new menu items."
+"How can I redeem my loyalty points?","You can redeem your loyalty points for discounts on future purchases."
+"How do I check my loyalty points balance?","You can check your loyalty points balance by logging into your account and visiting the 'My Rewards' or 'Loyalty Points' section on the dashboard."
+"Are there membership tiers in the loyalty program?","No, the Taste of India Loyalty Program does not currently have membership tiers. All users enjoy the same benefits and earn points at the same rate."
+"Do my loyalty points expire?","No, your loyalty points do not expire and can be used anytime for discounts on future purchases."
+"How does the referral program work?","You earn 50 loyalty points for each successful referral. To participate, share your referral code or link with friends and family. When a referred person signs up using your referral and completes their first purchase, you automatically receive 50 points in your loyalty account. These points can be redeemed for discounts on future purchases."
+"Do I get anything on my birthday?","Yes, as part of the Taste of India Loyalty Program, you receive special birthday rewards such as bonus loyalty points or exclusive discounts."
+"Can I use loyalty points with other discounts?","No, loyalty points from the Taste of India Loyalty Program cannot be combined with other discounts or promotional offers."
+"Is there a minimum order value to earn points?","No, there is no minimum order value. You earn 1 point for every ₹10 spent, regardless of the order amount."
+"What is the value of loyalty points?","For every ₹10 spent, you earn 1 loyalty point. These points can be redeemed for discounts on future purchases, where each point holds a value equivalent to ₹1."
+"Can I transfer my loyalty points to someone else?","No, loyalty points from the Taste of India Loyalty Program are non-transferable and can only be used by the account holder who earned them."
+"Do I earn points for dine-in orders?","No, the Taste of India operates exclusively online, so loyalty points are earned only on online orders."
+"What happens to my points if I cancel an order?","If you cancel an order, the loyalty points earned from that order will be deducted from your account."
+"How do I upgrade my membership tier?","The Taste of India Loyalty Program does not have membership tiers, so there is no upgrade process."
+"Can I redeem points for delivery charges?","No, loyalty points from the Taste of India Loyalty Program cannot be redeemed for delivery charges. They can only be used for discounts on food purchases."
+"Are there exclusive deals for loyalty members?","Yes, members of the Taste of India Loyalty Program enjoy exclusive deals such as birthday rewards, anniversary discounts, and early access to new menu items."
+"What are the benefits of premium membership?","The Taste of India Loyalty Program does not offer a premium membership. All users receive the same benefits under the standard loyalty program."
+"How do I enroll in the loyalty program?","You are automatically enrolled in the Taste of India Loyalty Program when you create an account and make your first purchase."
+"Do corporate orders earn loyalty points?","Yes, corporate orders placed through the Taste of India platform also earn loyalty points at the same rate—1 point for every ₹10 spent."
+"How do I track my loyalty points history?","You can track your loyalty points history by logging into your Taste of India account and visiting the 'Loyalty Points' or 'My Rewards' section, where all earned and redeemed points are listed."
+"How long does it take for points to appear in my account?","Loyalty points from the Taste of India Loyalty Program are typically credited to your account immediately after a successful purchase is completed."
+"What are the loyalty program milestones?","The Taste of India Loyalty Program does not currently include specific milestones. All users earn points consistently at the rate of 1 point per ₹10 spent and enjoy the same set of rewards and perks."
+"Do I get bonus points on special holidays?","No, the Taste of India Loyalty Program does not currently offer bonus points on special holidays."
+"Can I redeem points for beverages or desserts?","Yes, loyalty points from the Taste of India Loyalty Program can be redeemed for any menu items, including beverages and desserts."
+"Do I get anything special on my account anniversary?","Yes, as part of the Taste of India Loyalty Program, you receive special anniversary discounts or bonus points on your account anniversary."
+"Can I combine my points with gift cards?","No, loyalty points from the Taste of India Loyalty Program cannot be combined with gift cards during a single transaction."
+"How do I know if a promotion earns extra loyalty points?","Details about promotions that offer extra loyalty points will be clearly mentioned in the offer terms on the Taste of India website or app."
+"What is the highest membership tier?","The Taste of India Loyalty Program does not have membership tiers, so there is no highest tier."
+"Are there limits to how many points I can earn?","No, there are no limits. You can earn unlimited loyalty points through the Taste of India Loyalty Program based on your purchases and referrals."
+"Do points apply to delivery partner apps?","No, loyalty points from the Taste of India Loyalty Program are only applicable on orders placed directly through the official Taste of India platform, not through delivery partner apps."
+"What are the benefits of joining the loyalty program?","By joining the Taste of India Loyalty Program, you earn 1 point for every ₹10 spent, enjoy birthday and anniversary rewards, get 50 points for each successful referral, and receive early access to new menu items."
+"How do I activate my loyalty program membership?","Your membership in the Taste of India Loyalty Program is automatically activated when you create an account and make your first purchase."
+"Is there a fee to join the loyalty program?","No, there is no fee to join the Taste of India Loyalty Program. It is free for all users."
+"Can I earn loyalty points on cash-on-delivery orders?","Yes, you can earn loyalty points on cash-on-delivery orders placed through the official Taste of India platform."
+"Can I see my loyalty rewards history?","Yes, you can see your loyalty rewards history by logging into your Taste of India account and visiting the 'Loyalty Points' or 'My Rewards' section."
+"How often do loyalty program promotions happen?","Loyalty program promotions for Taste of India are occasional and announced during special events or festive seasons. Details are shared on the website or app when available."
+"Are loyalty points awarded for canceled orders?","No, loyalty points are not awarded for canceled orders in the Taste of India Loyalty Program. If points were already credited, they will be deducted upon cancellation."
+"Can I pause my loyalty membership?","No, the Taste of India Loyalty Program does not have a pause feature. Your membership remains active as long as your account exists."
+"Can I donate my loyalty points?","No, loyalty points from the Taste of India Loyalty Program cannot be donated. They are non-transferable and can only be used by the account holder."
+"What happens if I forget to log in when ordering?","If you forget to log in when ordering, you will not earn loyalty points for that purchase under the Taste of India Loyalty Program."
+"Do I earn loyalty points on discounted items?","Yes, you earn loyalty points on discounted items in the Taste of India Loyalty Program, based on the final amount paid."
+"What do VIP tier members get?","The Taste of India Loyalty Program does not have a VIP tier. All members receive the same benefits."
+"How can I upgrade my tier faster?","The Taste of India Loyalty Program does not have membership tiers like VIP, so there are no tier-specific benefits or upgrade options."
+"What are milestone rewards?","The Taste of India Loyalty Program does not currently offer milestone rewards. Points are earned at a flat rate for every ₹10 spent."
+"Can loyalty points be used for tips?","No, loyalty points from the Taste of India Loyalty Program cannot be used for tips."
+"Are there seasonal loyalty bonuses?","No, the Taste of India Loyalty Program does not currently offer seasonal loyalty bonuses."
+"Is there a cap on points earned per order?","No, there is no cap on the number of loyalty points you can earn per order in the Taste of India Loyalty Program."
+"What happens if my account is deactivated?","If your account is deactivated, all loyalty points and rewards associated with the Taste of India Loyalty Program will be lost."
+"Can loyalty points be shared across family accounts?","No, loyalty points from the Taste of India Loyalty Program cannot be shared across family accounts. They are linked to individual user accounts only."
+"Can I gift loyalty points?","No, loyalty points from the Taste of India Loyalty Program cannot be gifted to other users."
+"How do I know if I'm eligible for a loyalty bonus?","Eligibility for a loyalty bonus in the Taste of India Loyalty Program will be communicated through official notifications on the website, app, or via email if applicable."
+"Will I lose points if I return an item?","Yes, if you return an item, the corresponding loyalty points will be deducted from your Taste of India Loyalty Program account."
+"What do I do if my loyalty points are missing?","If your loyalty points are missing, you should contact Taste of India customer support with your order details to resolve the issue."
+"Are loyalty points taxable?","No, loyalty points from the Taste of India Loyalty Program are not considered taxable income."
+"Do loyalty points expire if I'm inactive?","The Taste of India Loyalty Program does not currently have an expiration policy for points due to account inactivity."
+"Is the loyalty program available internationally?","No, the Taste of India Loyalty Program is only available for orders placed within India through the official platform."
+"Can I earn points on gift card purchases?","No, loyalty points from the Taste of India Loyalty Program are not awarded on gift card purchases."
+"Do loyalty points work on group orders?","Yes, loyalty points from the Taste of India Loyalty Program can be earned on group orders placed through your registered Taste of India account."
+"Are there birthday month specials?","Yes, the Taste of India Loyalty Program offers special rewards during your birthday month, such as bonus points or exclusive discounts."
+"Can I request a points statement?","Yes, you can request a points statement through your Taste of India account or by contacting customer support."
+"What if my points balance looks incorrect?","If your points balance looks incorrect, you should contact Taste of India customer support with your order and account details for assistance."
+"Are loyalty points refunded if an order fails?","Yes, if an order fails, any loyalty points used or earned for that transaction will be adjusted or refunded in your Taste of India account."
+"Can I link multiple devices to my loyalty account?","Yes, you can link multiple devices to your Taste of India loyalty account as long as you log in with the same registered credentials."
+"What is the validity of tier statuses?","The Taste of India Loyalty Program does not have tier statuses, so there is no validity period associated with them."
+"Do loyalty members get early access to new menu items?","Yes, members of the Taste of India Loyalty Program get early access to new menu items as part of their exclusive perks."
+"Can loyalty points be exchanged for cash?","No, loyalty points from the Taste of India Loyalty Program cannot be exchanged for cash."
+"How are loyalty tiers calculated?","The Taste of India Loyalty Program does not include loyalty tiers, so no tier calculations are required."
+"Can I cancel my loyalty membership?","Yes, you can cancel your Taste of India Loyalty Program membership by contacting customer support, but all accumulated points will be lost."
+"What are flash loyalty sales?","Flash loyalty sales are limited-time offers exclusively available to Taste of India Loyalty Program members, providing special discounts or bonus points."
+"Is customer support faster for loyalty members?","No, the Taste of India Loyalty Program does not currently offer prioritized customer support for loyalty members."
+"Are loyalty points applied automatically?","Yes, loyalty points in the Taste of India Loyalty Program are applied automatically to your account after a successful purchase."
+"Can loyalty points cover taxes?","No, loyalty points from the Taste of India Loyalty Program cannot be used to cover taxes."
+"Do loyalty points cover packaging fees?","No, loyalty points from the Taste of India Loyalty Program cannot be used to cover packaging fees."
+"Can I set auto-redeem for points?","No, the Taste of India Loyalty Program does not currently offer an auto-redeem option for loyalty points."
+"Do referred friends get points too?","Yes, referred friends can earn points as well, but only after they make their first successful purchase through the Taste of India platform."
+"Hey, how does your loyalty program work?","The Taste of India Loyalty Program is designed to reward your loyalty. Here’s how it works: 
+1. You earn 1 point for every ₹10 spent on purchases.
+2. Points can be redeemed for discounts on future orders.
+3. Additional perks include birthday rewards, anniversary discounts, and early access to new menu items.
+4. Earn 50 points for each successful referral.
+5. Points are earned automatically with each purchase and are linked to your account."
+"Do I get any benefits if I order often?","Yes, frequent orders through the Taste of India Loyalty Program earn you more loyalty points, which can be redeemed for discounts. You may also be eligible for exclusive rewards like birthday perks, anniversary discounts, and early access to new menu items."
+"What's the point of the loyalty points?","The point of loyalty points in the Taste of India Loyalty Program is to reward you for your purchases. You earn 1 point for every ₹10 spent, and these points can be redeemed for discounts on future orders, birthday rewards, anniversary discounts, and even exclusive access to new menu items."
+"How do I check how many points I have?","You can check how many points you have by logging into your Taste of India account and visiting the 'Loyalty Points' or 'My Rewards' section."
+"What happens to my points if I don't use them?","The Taste of India Loyalty Program does not currently have an expiration policy for points, so your points will remain in your account until used."
+"How much do I need to spend to start earning points?","You start earning points as soon as you make a purchase. For every ₹10 spent, you earn 1 loyalty point in the Taste of India Loyalty Program."
+"Is there a maximum number of points I can earn?","No, there is no maximum limit on the number of loyalty points you can earn in the Taste of India Loyalty Program."
+"Are loyalty points only for online orders?","Yes, loyalty points in the Taste of India Loyalty Program are only available for online orders placed through the official platform."
+"Can I transfer my points to another account?","No, loyalty points from the Taste of India Loyalty Program cannot be transferred to another account."
+"When do I get upgraded to the next loyalty tier?","The Taste of India Loyalty Program does not have loyalty tiers, so there is no upgrade process for different tiers."
+"Do you have VIP rewards for loyal customers?","The Taste of India Loyalty Program does not have a VIP tier or specific rewards for loyal customers. All rewards are based on points earned through purchases."
+"What do I get if I hit a spending milestone?","The Taste of India Loyalty Program does not currently offer rewards for hitting spending milestones. Rewards are based on points earned for each ₹10 spent."
+"Do you run any double points days?","The Taste of India Loyalty Program does not currently offer double points days."
+"Can I use my points to pay for delivery charges?","No, loyalty points from the Taste of India Loyalty Program cannot be used to pay for delivery charges."
+"Are there any special offers for loyalty members?","Yes, loyalty members of the Taste of India Loyalty Program receive exclusive perks, including birthday rewards, anniversary discounts, early access to new menu items, and more."
+"How can I see my loyalty activity?","You can view your loyalty activity by logging into your Taste of India account and navigating to the 'Loyalty Points' or 'My Rewards' section."
+"I placed an order, but I didn’t get any points. Why?","If you didn't receive any points for your order, it could be because you weren't logged in when placing the order, or there was an issue with the system. Please contact Taste of India customer support with your order details for assistance."
+"How do I know if I'm close to the next loyalty tier?","The Taste of India Loyalty Program does not have loyalty tiers, so there is no system to track progression to a higher tier."
+"How do you define the VIP tier?","The Taste of India Loyalty Program does not have a VIP tier. Rewards are based on points earned through purchases, and there are no special tiers for loyalty members."
+"What's the best way to earn points faster?","The best way to earn points faster in the Taste of India Loyalty Program is by making regular purchases. For each ₹10 spent, you earn 1 point, so placing frequent orders will help accumulate points more quickly."
+"Can I get early access to deals if I'm a loyalty member?","Yes, loyalty members of the Taste of India Loyalty Program get early access to new menu items and exclusive deals."
+"How long does it take for my points to show up?","Loyalty points from the Taste of India Loyalty Program will typically appear in your account within a few minutes after a successful purchase."
+"How do I check if a promo also gives bonus points?","To check if a promo gives bonus points, you can refer to the promotional details on the Taste of India website, app, or any communication you receive, as bonus points will be explicitly mentioned."
+"Can I split points between two orders?","No, the Taste of India Loyalty Program does not allow you to split points between two orders."
+"If I forgot to log in, can I still get my points later?","If you forget to log in when placing an order, you will not earn loyalty points for that purchase. Unfortunately, points cannot be added retroactively."
+"Are loyalty points valid across all your branches?","The Taste of India Loyalty Program is available only for online orders placed through the official platform, so loyalty points are valid across all online orders, not tied to any specific branch."
+"Can I combine points from multiple accounts?","No, loyalty points from the Taste of India Loyalty Program cannot be combined from multiple accounts."
+"Do I get points on tax and delivery charges?","No, loyalty points from the Taste of India Loyalty Program are not earned on tax and delivery charges."
+"Can loyalty members give feedback for extra rewards?","The Taste of India Loyalty Program does not currently offer extra rewards for providing feedback. However, feedback may be considered for improving the program and services."
+"Are there special days when points are worth more?","The Taste of India Loyalty Program does not currently offer special days when points are worth more."
+"Can I use points on beverages and desserts?","Yes, loyalty points from the Taste of India Loyalty Program can be used to redeem discounts on beverages and desserts, as long as they are part of an eligible purchase."
+"Do I get anything extra on my account anniversary?","Yes, loyalty members of the Taste of India Loyalty Program may receive special rewards, such as bonus points or exclusive discounts, on their account anniversary."
+"loyalty program","The Taste of India Loyalty Program rewards customers for their purchases by offering:
+1. 1 point for every ₹10 spent. 
+2. Points that can be redeemed for discounts on future purchases. 
+3. Additional benefits such as birthday rewards, anniversary discounts, and early access to new menu items. 
+4. 50 points for each successful referral.
+5. All points are earned through online orders placed on the official platform."
+"What are the benefits of your loyalty program?","The benefits of joining the Taste of India Loyalty Program include the following:
+1. Earn 1 point for every ₹10 spent.
+2. Redeem points for discounts on future purchases.
+3. Receive birthday rewards.
+4. Enjoy anniversary discounts.
+5. Get early access to new menu items.
+6. Earn 50 points for each successful referral."
+"Can I use my points for a discount?","Yes, you can use your points for a discount! According to the Loyalty Program, points earned from your purchases—1 point for every ₹10 spent—can be redeemed for discounts on future purchases. This allows you to save money on your next order, making your loyalty rewarding in a practical way."
+"What rewards can I redeem?","You can redeem your points for discounts on future purchases. Additionally, the program offers birthday rewards, anniversary discounts, and early access to new menu items as exclusive perks."
+"advantages of loyalty program","The Advantages of the Taste of India Loyalty Program are: 
+1. Earn 1 point for every ₹10 spent, which can be redeemed for discounts on future purchases. 
+2. Birthday rewards and anniversary discounts for members. 
+3. Early access to new menu items. 
+4. Referral program where you earn 50 points for each successful referral. 
+5. Encourages repeat purchases and fosters customer loyalty."
+"disadvantages of loyalty program","The Disadvantages of the Taste of India Loyalty Program are: 
+1. Limited to online orders only, excluding in-store or third-party delivery services. 
+2. Points cannot be used for delivery charges, taxes, or certain menu items. 
+3. Slow point accumulation with 1 point for every ₹10 spent. 
+4. No tier system for higher rewards, which may limit incentives for increased spending. 
+5. Referral points are only awarded if the referred person makes a purchase."
+"What happened if I transfer my loyalty point to another account?","If you attempt to transfer your loyalty points to another account, the transfer will not be completed, as the Taste of India Loyalty Program does not allow point transfers between accounts."
+"Drawbacks of taste of india loyalty points?","The Drawbacks of the Taste of India Loyalty Program are: 
+1. Limited to online orders only. 
+2. Points can't be used for delivery charges, taxes, or certain menu items. 
+3. Slow point accumulation with 1 point for every ₹10 spent. 
+4. No tier system for higher rewards. 
+5. Referral points are only awarded if the referred person makes a purchase."

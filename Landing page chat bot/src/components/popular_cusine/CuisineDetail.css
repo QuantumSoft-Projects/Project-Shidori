@@ -1,0 +1,131 @@
+/* Main Container */
+.cuisine-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff8e1;
+    padding: 40px;
+}
+
+/* Detail Container */
+.detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Image Section */
+.image-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Info Section */
+.info-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Headings */
+.info-container h2 {
+    font-size: 28px;
+    color: #ff6700;
+    margin-bottom: 15px;
+}
+
+/* Text Details */
+.state, .description, .calories, .price, .rating, .dish-type {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Dish Type (Veg/Non-Veg) */
+.dish-type {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Veg Indicator */
+.veg {
+    color: green;
+}
+
+/* Non-Veg Indicator */
+.non-veg {
+    color: red;
+}
+
+/* Calories */
+.calories {
+    font-weight: bold;
+    color: darkred;
+}
+
+/* Price */
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.add-to-cart, .go-back {
+    background-color: #ff6700;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 150px;
+    text-align: center;
+}
+
+.go-back {
+    background-color: #555;
+}
+
+.add-to-cart:hover {
+    background-color: darkred;
+}
+
+.go-back:hover {
+    background-color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .detail-container {
+        flex-direction: column;
+    }
+    .image-container, .info-container {
+        max-width: 100%;
+        text-align: center;
+    }
+}

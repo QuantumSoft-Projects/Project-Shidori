@@ -1,0 +1,121 @@
+/* Settings Page Styling */
+.settings-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  
+  .settings-container.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .setting-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .setting-section:last-child {
+    border-bottom: none;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .profile-info img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ff7f50;
+  }
+  
+  /* Toggle Switch */
+  .toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 20px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #ff7f50;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  /* Form Elements */
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  select:focus {
+    border-color: #ff7f50;
+  }
+  
+  /* Dark Mode Adjustments */
+  .dark-mode input,
+  .dark-mode select {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #777;
+  }
+  
+  .dark-mode input:focus,
+  .dark-mode select:focus {
+    border-color: #ff7f50;
+  }
+  

@@ -1,0 +1,197 @@
+.wallet-container {
+  min-height: 95vh;
+  background: #f9fafb;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-left: 550px; /* Leave space for sidebar */
+  box-sizing: border-box;
+}
+
+.wallet-section {
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1px solid #fdba74;
+}
+
+.btn {
+  color: black !important;
+}
+
+.wallet-heading {
+  font-size: 2.5rem;
+  color: #ea580c;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.wallet-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .wallet-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.wallet-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.wallet-card h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.wallet-card p {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.wallet-card button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: white;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.wallet-card button:hover {
+  background: #f3f4f6;
+}
+
+.wallet-card .icon {
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+.wallet-card.orange {
+  background: linear-gradient(to right, #fb923c, #ea580c);
+}
+
+.wallet-card.green {
+  background: linear-gradient(to right, #4ade80, #16a34a);
+}
+
+.wallet-card.blue {
+  background: linear-gradient(to right, #60a5fa, #2563eb);
+}
+
+.transaction-history {
+  margin-top: 1.5rem;
+}
+
+.transaction-history h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.transaction-history ul {
+  margin-top: 0.5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.transaction-item .added {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.transaction-item .spent {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.transaction-item span:last-child {
+  color: #6b7280;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(31, 41, 55, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: 24rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.modal input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.modal-actions button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-actions button:first-child {
+  background: #d1d5db;
+}
+
+.modal-actions button:first-child:hover {
+  background: #9ca3af;
+}
+
+.modal-actions button:last-child {
+  background: #f97316;
+  color: white;
+}
+
+.modal-actions button:last-child:hover {
+  background: #ea580c;
+}
+
+/* Optional: adjust on small screens */
+@media (max-width: 768px) {
+  .wallet-container {
+    padding-left: 75px; /* No space for sidebar in mobile view */
+  }
+}

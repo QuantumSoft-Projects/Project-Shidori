@@ -1,0 +1,40 @@
+.home {
+    text-align: center;
+    padding: 50px;
+    background-image: url("../assets/background5.png"); /* Add a beautiful food background */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero p {
+    font-size: 20px;
+    color: white;
+    margin: 15px 0;
+}
+
+.explore-btn {
+    background-color: white;
+    color: #ff6700;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.explore-btn:hover {
+    background-color: #ff6700;
+    color: white;
+}
